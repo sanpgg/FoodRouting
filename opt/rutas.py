@@ -32,11 +32,11 @@ def crea_rutas(casas_df, df_final, centros_df):
         new_df = df_rutas[df_rutas.labs_cuadrilla == x]
         centro_x = new_df.lat_centros.iloc[0]
         centro_y = new_df.lon_centros.iloc[0]
-        puntos = new_df[['labs_casas', 'lat', 'lon', 'labs_centros', 'labs_cuadrilla']]
+        puntos = new_df[['labs_casas', 'lat', 'lon', 'labs_centros', 'labs_cuadrilla', 'nombre', 'apellido_paterno', 'apellido_materno', 'calle', 'numero', 'colonia']]
         puntos_ordenados = orden(puntos, centro_x, centro_y)
         dataframes_ordered.append(puntos_ordenados)
     final_df = pd.concat(dataframes_ordered, axis=0)
-    final_df = final_df[['labs_casas','lat','lon','labs_centros','labs_cuadrilla','labs_ruta']]
+    final_df = final_df[['labs_casas','lat','lon','labs_centros','labs_cuadrilla','labs_ruta', 'nombre', 'apellido_paterno', 'apellido_materno', 'calle', 'numero', 'colonia']]
     return final_df
 
 
