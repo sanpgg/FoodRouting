@@ -1,4 +1,4 @@
-from flask import Flask, request
+from flask import Flask, request, Response
 from opt.clustering_functions import asigna_entregas
 from opt.rutas import crea_rutas
 from opt.formater import df_to_json
@@ -36,7 +36,12 @@ def get_routes():
     #        countDown = countDown - 1
     #    else:
     #        break
-    return df_to_json(df_final)#centros_df
+    #return df_to_json(df_final)#centros_df
+    return Response(
+       df_final.to_csv(),
+       mimetype="text/csv",
+       headers={"Content-disposition":
+       "attachment; filename=filename.csv"})
     
     
     
