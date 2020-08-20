@@ -1,4 +1,4 @@
-name: SPGFoodSafety
+name: SPGGFoodSafety
 channels:
   - defaults
   - conda-forge  

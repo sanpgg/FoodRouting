@@ -26,17 +26,6 @@ def get_routes():
         'labs_cuadrilla': labs_cuadrilla
     })
     df_final = crea_rutas(hogares_df, df_input, centros_df)
-    #countDown = len(centros_df)
-    #while (countDown >= 0):
-    #    if countDown != 0:
-    #        for i in range(len(centros_df)) : 
-    #            if centros_df['labs_centros'][i] == countDown:
-    #                outputs = df_final[df_final['labs_centros']==countDown]
-    #                centros_df.loc[centros_df['labs_centros'] == countDown, 'n'] = df_to_json(outputs)
-    #        countDown = countDown - 1
-    #    else:
-    #        break
-    #return df_to_json(df_final)#centros_df
     return Response(
        df_final.to_csv(),
        mimetype="text/csv",
