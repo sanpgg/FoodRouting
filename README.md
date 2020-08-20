@@ -20,7 +20,7 @@ Ante el contexto global y los estragos ocasionados por el virus COVID-19, el Mun
 - Generar la distribución de insumos necesarios entre los diversos centros de distribución.
 - Generar el orden en el que las cuadrillas tendrán que repartir las distintas despensas. 
 
-*** Planeación de rutas. 
+*** Planeación de rutas.<br/>
 Dado un número de cuadrillas, con la demanda asignada al centro de distribución, tenemos que encontrar el orden de visita para cada uno de los hogares que cada cuadrilla visitará. Se busca que el problema sea óptimo y se minimice el tiempo en calle de cada una de las cuadrillas. 
 
 ## Ambiente de desarrollo
