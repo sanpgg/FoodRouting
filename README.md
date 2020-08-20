@@ -1,12 +1,10 @@
 *Esta herramienta digital surgió de la colaboración entre el equipo del Municipio de San Pedro Garza García y la Brigada Digital MX*
 # Dispersador de rutas
 ## Descripción
----
 Repositorio que contiene los algoritmos necesarios para la optimización de rutas y asignación de recursos en respuesta a COVID-19.
 
 ## Problemática
----
-Ante el contexto global y los estragos ocasionados por el virus COVID-19, el Municipio de San Pedro Garza García cuenta con una campaña de apoyo con paquetes alimenticios para los ciudadanos. Dada la demanda de entrega de apoyos (serie de coordenadas y el tipo de despensa dd = (lat,long, td) ), y centros de distribución (coordenadas cd = (lat,long)) es necesario encontrar La asignación óptima de los hogares a cada centro de distribución.
+Ante el contexto global y los estragos ocasionados por el virus COVID-19, el Municipio de San Pedro Garza García cuenta con una campaña de apoyo con paquetes alimenticios para los ciudadanos. Dada la demanda de entrega de apoyos (serie de coordenadas y el tipo de despensa dd = (lat,long, td) ), y centros de distribución (coordenadas cd = (lat,long)) es necesario encontrar la asignación óptima de los hogares a cada centro de distribución.
 
 *** Variables:
 - *Hogares*: Direcciones postales con coordenadas (lat,long);
@@ -19,7 +17,7 @@ Ante el contexto global y los estragos ocasionados por el virus COVID-19, el Mun
   - Familias sin niños.
   
 *** Sistemas. 
-Necesitamos dos sistemas: 
+Módulos a resolver: 
 
 - Generar la distribución de insumos necesarios entre los diversos centros de distribución.
 - Generar el orden en el que las cuadrillas tendrán que repartir las distintas despensas. 
@@ -28,7 +26,6 @@ Necesitamos dos sistemas:
 Dado un número de cuadrillas, con la demanda asignada al centro de distribución, tenemos que encontrar el orden de visita para cada uno de los hogares que cada cuadrilla visitará. Se busca que el problema sea óptimo y se minimice el tiempo en calle de cada una de las cuadrillas. 
 
 ## Ambiente de desarrollo
----
 Si lo que deseas es utilizar el proyecto como desarrollador lo primero que debes hacer el preparar tu ambiente de desarrollo para poder realiar pruebas, detectar posibles errores e incluso proponer mejoras.
 
 Este repositorio contiene archivos de compilación que se pueden usar para iniciar un entorno de desarrollo usando [Docker](https://www.docker.com/).
