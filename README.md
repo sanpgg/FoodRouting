@@ -11,9 +11,9 @@ Ante el contexto global y los estragos ocasionados por el virus COVID-19, el Mun
 - *Centros de Distribución*: Centros en los que se almacenan las despensas y luego de ahí salen las cuadrillas a repartirlas;
 - *Cuadrillas*: Grupos de diversas dependencias que saldrán a entregar las despensas, cada uno es responsable de guardar su evidencia de la entrega, hay más de una cuadrilla por centro de distribución;
 - *Despensas*: Hay al menos 4 tipos de despensas:
-  - Adultos mayores.
-  - Enfermos COVID-19
-  - Familias con niños.
+  - Adultos mayores;
+  - Enfermos COVID-19;
+  - Familias con niños;
   - Familias sin niños.
   
 ###  Sistemas:
@@ -24,7 +24,7 @@ Ante el contexto global y los estragos ocasionados por el virus COVID-19, el Mun
 Dado un número de cuadrillas, con la demanda asignada al centro de distribución, tenemos que encontrar el orden de visita para cada uno de los hogares que cada cuadrilla visitará. Se busca que el problema sea óptimo y se minimice el tiempo en calle de cada una de las cuadrillas. 
 
 ## Ambiente de desarrollo
-Si lo que deseas es utilizar el proyecto como desarrollador lo primero que debes hacer el preparar tu ambiente de desarrollo para poder realiar pruebas, detectar posibles errores e incluso proponer mejoras.
+Si lo que deseas es utilizar el proyecto como desarrollador lo primero que debes hacer es preparar tu ambiente de desarrollo para poder realiar pruebas, detectar posibles errores e incluso proponer mejoras.
 
 Este repositorio contiene archivos de compilación que se pueden usar para iniciar un entorno de desarrollo usando [Docker](https://www.docker.com/).
 
