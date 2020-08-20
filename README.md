@@ -16,7 +16,7 @@ Ante el contexto global y los estragos ocasionados por el virus COVID-19, el Mun
   - Familias con niños.
   - Familias sin niños.
   
-*** Sistemas. 
+*** Sistemas:
 Módulos a resolver: 
 
 - Generar la distribución de insumos necesarios entre los diversos centros de distribución.
