@@ -17,8 +17,6 @@ Ante el contexto global y los estragos ocasionados por el virus COVID-19, el Mun
   - Familias sin niños.
   
 *** Sistemas:
-Módulos a resolver: 
-
 - Generar la distribución de insumos necesarios entre los diversos centros de distribución.
 - Generar el orden en el que las cuadrillas tendrán que repartir las distintas despensas. 
 
