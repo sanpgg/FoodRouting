@@ -6,7 +6,7 @@ Repositorio que contiene los algoritmos necesarios para la optimización de ruta
 ## Problemática
 Ante el contexto global y los estragos ocasionados por el virus COVID-19, el Municipio de San Pedro Garza García cuenta con una campaña de apoyo con paquetes alimenticios para los ciudadanos. Dada la demanda de entrega de apoyos (serie de coordenadas y el tipo de despensa dd = (lat,long, td) ), y centros de distribución (coordenadas cd = (lat,long)) es necesario encontrar la asignación óptima de los hogares a cada centro de distribución.
 
-*** Variables:
+* Variables:
 - *Hogares*: Direcciones postales con coordenadas (lat,long);
 - *Centros de Distribución*: Centros en los que se almacenan las despensas y luego de ahí salen las cuadrillas a repartirlas;
 - *Cuadrillas*: Grupos de diversas dependencias que saldrán a entregar las despensas, cada uno es responsable de guardar su evidencia de la entrega, hay más de una cuadrilla por centro de distribución;
@@ -16,11 +16,11 @@ Ante el contexto global y los estragos ocasionados por el virus COVID-19, el Mun
   - Familias con niños.
   - Familias sin niños.
   
-*** Sistemas:
+* Sistemas:
 - Generar la distribución de insumos necesarios entre los diversos centros de distribución.
 - Generar el orden en el que las cuadrillas tendrán que repartir las distintas despensas. 
 
-*** Planeación de rutas.<br/>
+* Planeación de rutas.<br/>
 Dado un número de cuadrillas, con la demanda asignada al centro de distribución, tenemos que encontrar el orden de visita para cada uno de los hogares que cada cuadrilla visitará. Se busca que el problema sea óptimo y se minimice el tiempo en calle de cada una de las cuadrillas. 
 
 ## Ambiente de desarrollo
